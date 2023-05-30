@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Contact</title>
+</head>
+<body>
+<!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Rizmah Zakiah Nur Ahmad</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="skills.html" class="nav__link">
+                            <i class="uil uil-file-info-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="project.html" class="nav__link">
+                            <i class="uil uil-file-info-alt nav__icon"></i> Project
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="blog.html" class="nav__link">
+                            <i class="uil uil-file-info-alt nav__icon"></i> Blog
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="qualification.html" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Qualification
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link active-link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+                    <li>
+                        <i class="uil uil-times nav__close" id="nav-close"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme Change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps nav__icon"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">082386953819</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle"></span>12150122153@students.uin-suska.ac.id
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <h6>Alamat di Ujung Batu</h6>
+                            <span class="contact__subtitle">Jl. Manggis, RK. Harapan, Kel. Ujung Batu, Kec. Ujung Batu, Kab. Rokan Hulu</span>
+                            <h6>Alamat di Pekanbaru</h6>
+                            <span class="contact__subtitle">Perumahan Vaisyatama, Kel. Simpang baru, Kec. Tampan, Kota Pekanbaru</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form grid" name="submit-to-google-sheet">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label class="cantact__label"><b>Name</b></label>
+                            <input type="text" class="contact__input" name="Name" placeholder="Your Name" required>
+                        </div>
+                        <div class="contact__content">
+                            <label class="cantact__label"><b>Email</b></label>
+                            <input type="email" class="contact__input" name="Email" placeholder="Your Email" required>
+                        </div>
+                        <div class="contact__content">
+                            <label class="cantact__label"><b>Message</b></label>
+                            <textarea name="Message" rows="7" class="contact__input" placeholder="Your Message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                        </div>
+                        <span id="msg"></span>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="./assets/js/main.js"></script>
+</body>
+</html>
